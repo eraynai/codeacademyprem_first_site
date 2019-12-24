@@ -1,3 +1,27 @@
+html * {
+    background: rgba(255, 0, 0, .1);
+    box-shadow: 0 0 0 1px red;
+}
+
 body {
     font-family: 'Reem Kufi', sans-serif;
+}
+
+.logo {
+    width: 300px;
+    height: 79px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navbar {
+
+    display: flex;
+    width: 1200px;
+    margin: 30px;
+    justify-content: space-evenly;
+
+
 }
