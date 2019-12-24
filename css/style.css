@@ -14,13 +14,16 @@ body {
 
 .navigation {
     display: flex;
+    justify-content: space-evenly;
+    margin: 1.2em;
 }
 
 .navbar {
 
     display: flex;
+    /*width: 1200px;*/
     width: 1200px;
-    margin: 30px;
+    margin: 2em;
     justify-content: space-evenly;
 
 
