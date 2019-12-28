@@ -1,30 +1,50 @@
-html * {
+/*html * {
     background: rgba(255, 0, 0, .1);
     box-shadow: 0 0 0 1px red;
-}
+}*/
 
 body {
     font-family: 'Reem Kufi', sans-serif;
 }
 
-.logo {
-    width: 300px;
-    height: 79px;
+.navigation {
+    display: grid;
+    grid-template-areas: "logo . . . . . navigation";   
+    grid-template-columns: auto;
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 1.2em;
+.logo {
+    width: 300px;
+    height: 73px;
+    grid-area: logo;
+    padding: 30px;
 }
 
 .navbar {
-
+    grid-area: navigation;
+}
+.navbar ul {
     display: flex;
-    /*width: 1200px;*/
-    width: 1200px;
-    margin: 2em;
-    justify-content: space-evenly;
+    width: 500px;
+    justify-content: space-between;
+    margin: 60px;
+}
 
+.section1 {
+    display: grid;
+    grid-template-rows: 100px 300px;
+    grid-template-columns: 100px auto 100px;
+    grid-template-areas: ". . ."
+                          ". sectionA .";
+}
 
+.text {
+    display: flex;
+    grid-area: sectionA;
+    flex-flow: column;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 600;
 }
