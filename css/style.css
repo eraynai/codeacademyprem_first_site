@@ -42,8 +42,33 @@ justify-content: space-around;
     font-family: 'Heebo', sans-serif;
 }
 
-.section1 {
+.background, .background2, .background3{
+    border: 2px red solid;
     display: flex;
     flex-flow: column nowrap;
+    background-color: #a9efd7;
+    margin: 1.2rem;
+    border-radius: 20px;
+}
+
+.titleA, .titleB, .titleC{
+font-size: 1.2rem;
+font-weight: 700;
+border: 1px
+red solid;
+padding: 1.4rem;
+text-align: center;
+}
+
+.titleA_1, .titleB_1 {
+    border: 1px dashed blue;
+    margin: 0 1.2rem;
+
+}
+
+.background2 img, .background3 img {
+    border: 2px red solid;
+    margin-top: 1.2rem;
+    padding: 1rem;
 }
 
